@@ -16,10 +16,11 @@ div {
     padding: 0;
 }
 
-main img {
-    max-width: 300px;
-    text-align: center;
-    border-radius: 10px 20px 30px 10px;
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -132,3 +133,17 @@ header {
 /* Main Content */
 
 /* Footer */
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
