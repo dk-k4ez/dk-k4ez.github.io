@@ -24,7 +24,108 @@ div {
 }
 
 /* Header */
+body {
+  margin: 0;
+  font-family: "Verdana";
+}
 
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 110px 0 30px 0;
+  color: #f1c40f;
+  background-image: url(https://github.com/evangelacarolina/dk-k4ez.github.io/blob/master/project-tim-c44/assets/images/2017_%2012%20Months%20of%20Bucket%20List%20MTB%20Destinations.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 1px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.booking {
+  background-color: #192a56;
+  cursor: pointer;
+  box-shadow: 0 6px #7f8c8d;
+}
+
+.booking:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  height: 110px;
+  width: 100%;
+  background-color: #f1c40f;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgb(240, 204, 127, 0.5)
+}
+
+.header-right a {
+  line-height: 110px;
+  font-size: 17px;
+  margin-top: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 20px;
+  color: white;
+  display: inline;
+}
 
 /* Navigasi */
 
