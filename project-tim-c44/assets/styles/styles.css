@@ -222,6 +222,10 @@ main {
   padding-bottom: 50px;
 }
 
+.bike-content p {
+  padding: 10px
+}
+
 div.camping-content {
   flex: 200px;
   margin: .5%;
