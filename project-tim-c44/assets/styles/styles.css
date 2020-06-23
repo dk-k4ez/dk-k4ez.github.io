@@ -121,10 +121,7 @@ header {
 .header-right a {
   line-height: 110px;
   font-size: 17px;
-  margin-top: 50px;
-  margin-left: 35px;
-  margin-right: 35px;
-  margin-bottom: 20px;
+  margin: 50px 35px 20px 35px;
   color: white;
   display: inline;
 }
