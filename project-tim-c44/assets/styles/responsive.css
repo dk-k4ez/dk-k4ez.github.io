@@ -52,6 +52,13 @@
         font-size: 14px;
     }
 
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
 
 
 }
