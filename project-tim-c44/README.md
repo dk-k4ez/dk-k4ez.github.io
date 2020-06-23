@@ -7,5 +7,5 @@ Anggota Kelompok:
 2. Dewi Ayu Itikaf - 0447977150-59
 3. Ericson - 0447977061-4
 4. Edy Suharman Haby Talib - 0447977141-181
-5. Muhammad Zhafran Zhabyansyah - 0447977151-134
-6. Evangela Carolina - 0447977120-118
+5. Evangela Carolina - 0447977120-118
+6. Muhammad Zhafran Zhabyansyah - 0447977151-134
