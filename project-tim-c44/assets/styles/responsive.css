@@ -1,5 +1,5 @@
 /* Untuk Tablet */
-/* Edit-edy */
+
 @media all and (max-width: 1000px) {
     .top-wrapper h1 {
         font-size: 32px;
@@ -10,7 +10,6 @@
         line-height: 30px;
     }
 
-    /* bagian konten camping & hiking */
     .text-top h1 {
         font-size: 25px;
         padding-bottom: 8px;
@@ -73,7 +72,6 @@
         text-align: center;
     }
 
-    /* bagian konten camping & hiking */
     .text-top h1 {
         font-size: 20px;
         padding-bottom: 5px;
@@ -95,7 +93,7 @@
     }
 
     .featured-image {
-        width: 250px;
+        max-width: 250px;
     }
 
     .banner {
