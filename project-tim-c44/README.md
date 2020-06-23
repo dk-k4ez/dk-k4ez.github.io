@@ -1,4 +1,4 @@
-# project-tim-c44.github.io
+# project-tim-c44
 Project Tim C44 - KOMINFO DTS x Progate
 Biking Mountain
 
