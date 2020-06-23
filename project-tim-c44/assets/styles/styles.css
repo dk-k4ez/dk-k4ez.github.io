@@ -22,8 +22,6 @@ div {
   padding: 0;
 }
 
-/* Header dan Navigasi */
-
 html,
 body {
   font-family: 'Open Sans', sans-serif;
@@ -45,6 +43,8 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+/* Header dan Navigasi */
 
 .top-wrapper {
   padding: 110px 0 30px 0;
@@ -259,10 +259,6 @@ div.camping-content {
 }
 
 /* Footer */
-
-footer img {
-  width: 125px;
-}
 
 footer {
   text-align: center;
