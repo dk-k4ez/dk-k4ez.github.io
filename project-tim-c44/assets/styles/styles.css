@@ -140,6 +140,20 @@ main {
   overflow: auto;
 }
 
+.camping-content img {
+  height: 287px;
+}
+
+div.camping-content {
+  flex: 200px;
+  margin: .5%;
+  padding: 1%;
+}
+
+.camping-content {
+  text-align: center;
+}
+
 /* Footer */
 
 footer img {
