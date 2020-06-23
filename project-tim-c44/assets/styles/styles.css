@@ -18,8 +18,8 @@ h5,
 h6,
 p,
 div {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Header */
@@ -145,4 +145,19 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.15em;
+  padding: 20px;
+}
+
+footer {
+  background-color: rgba(52, 73, 94, 1);
+}
+
+footer {
+  color: rgb(245, 245, 245);
 }
