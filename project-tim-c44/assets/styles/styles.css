@@ -17,7 +17,6 @@ div {
 }
 
 .container {
-    max-width: 1170px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -34,7 +33,7 @@ a {
 }
 
 .container {
-  width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -51,16 +50,18 @@ a {
   opacity: 1;
   font-size: 45px;
   letter-spacing: 3px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .top-wrapper p {
   opacity: 1;
-  margin-bottom: 1px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  line-height: 10px;
 }
 
 .btn-wrapper {
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 .btn-wrapper p {
