@@ -132,6 +132,92 @@ header {
 
 /* Main Content */
 
+
+/* Bagian Camping */
+
+.content-wrapper {
+    text-align: center;
+    margin: 20px 50px;
+    overflow-x: auto;
+}
+
+.text-top h1 {
+    text-align: center;
+    color: goldenrod;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.text-top p {
+    text-align: center;
+    color: goldenrod;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.pic a {
+    float: left;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.pic a p {
+    font-size: 22px;
+    padding-top: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.pic p {
+    color: goldenrod;
+}
+
+.pic-1:hover {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(105, 105, 105, 1), 0 0 20px rgba(105, 105, 105, 1), 0 0 30px rgba(105, 105, 105, 1), 0 0 0 75px rgba(105, 105, 105, 0.05), 0 0 0 60px rgba(105, 105, 105, 0.05), 0 0 0 40px rgba(105, 105, 105, 0.05), 0 0 0 20px rgba(105, 105, 105, 0.05);
+}
+
+.pic a:active {
+    position: relative;
+    top: 7px;
+}
+
+.pic-1 {
+    width: 350px;
+    border-radius: 50%;
+}
+
+.pic-2 {
+    width: 600px;
+    height: 450px;
+    margin-top: 50px;
+    margin-right: 35px;
+    float: left;
+    border-radius: 20px;
+}
+
+.text-bottom h1 {
+    vertical-align: middle;
+    padding-bottom: 20px;
+    padding-top: 600px;
+    text-align: left;
+    color: gray;
+}
+
+.text-bottom p {
+    text-align: justify;
+    font-size: 20px;
+    color: gray;
+}
+
+
+/* Akhir dari bagian camping */
+
+
+
+
+
 /* Footer */
 
 footer img {
