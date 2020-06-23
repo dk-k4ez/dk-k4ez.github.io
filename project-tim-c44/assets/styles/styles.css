@@ -177,6 +177,10 @@ main {
   border-radius: 50%;
 }
 
+.featured-image-raja {
+  width: 100%;
+}
+
 .banner {
   width: 600px;
   height: 450px;
