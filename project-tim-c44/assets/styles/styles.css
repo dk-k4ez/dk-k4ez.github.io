@@ -22,10 +22,12 @@ div {
   padding: 0;
 }
 
-/* Header */
+/* Header dan Navigasi */
 
+html,
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.05em;
 }
 
 body {
@@ -131,10 +133,12 @@ header {
   display: inline;
 }
 
-/* Navigasi */
-
-
 /* Main Content */
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
 
 /* Footer */
 
