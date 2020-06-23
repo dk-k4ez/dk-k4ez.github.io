@@ -1,4 +1,5 @@
 /* Untuk Tablet */
+/* Edit-edy */
 @media all and (max-width: 1000px) {
     /* bagian konten camping & hiking */
         .text-top h1 {
@@ -82,5 +83,27 @@
     
     
     
-    
+    /* Master */
+@media all and (max-width: 1000px ) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .top-wrapper p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px ) {
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

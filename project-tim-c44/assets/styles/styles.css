@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
+
+* {
+  box-sizing: border-box;
+}
+
 /* Reset CSS (JANGAN DIHAPUS) */
 html,
 body,
@@ -12,21 +18,21 @@ h5,
 h6,
 p,
 div {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-/* Header */
-body {
   margin: 0;
-  font-family: "Verdana";
+  padding: 0;
+}
+
+/* Header dan Navigasi */
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.05em;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 a {
@@ -34,7 +40,8 @@ a {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -42,7 +49,7 @@ a {
 .top-wrapper {
   padding: 110px 0 30px 0;
   color: #f1c40f;
-  background-image: url(https://github.com/evangelacarolina/dk-k4ez.github.io/blob/master/project-tim-c44/assets/images/2017_%2012%20Months%20of%20Bucket%20List%20MTB%20Destinations.jpg);
+  background-image: url(https://dk-cv.herokuapp.com/assets/images/Mountain-Destinations.jpg);
   background-size: cover;
   text-align: center;
 }
@@ -51,16 +58,18 @@ a {
   opacity: 1;
   font-size: 45px;
   letter-spacing: 3px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .top-wrapper p {
   opacity: 1;
-  margin-bottom: 1px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  line-height: 10px;
 }
 
 .btn-wrapper {
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 .btn-wrapper p {
@@ -119,22 +128,26 @@ header {
 .header-right a {
   line-height: 110px;
   font-size: 17px;
-  margin-top: 50px;
-  margin-left: 35px;
-  margin-right: 35px;
-  margin-bottom: 20px;
+  margin: 50px 35px 20px 35px;
   color: white;
   display: inline;
 }
 
-/* Navigasi */
-
-
 /* Main Content */
 
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+.camping-content img {
+  height: 287px;
+}
+
+/* Edit-edy */
 
 /* Bagian Camping */
-
+/*
 .content-wrapper {
     text-align: center;
     margin: 20px 50px;
@@ -210,7 +223,7 @@ header {
     font-size: 20px;
     color: gray;
 }
-
+*/
 
 /* Akhir dari bagian camping */
 
@@ -220,16 +233,44 @@ header {
 
 /* Footer */
 
-footer img {
-    width: 125px;
+div.camping-content {
+  flex: 200px;
+  margin: .5%;
+  padding: 1%;
 }
 
-footer p {
-    color: #b3aeb5;
-    font-size: 12px;
+.camping-content {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.banner {
+  padding: 10px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+
+footer img {
+  width: 125px;
 }
 
 footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.15em;
+  padding: 20px;
+  color: rgb(245, 245, 245);
+  background-color: rgba(52, 73, 94, 1);
 }
