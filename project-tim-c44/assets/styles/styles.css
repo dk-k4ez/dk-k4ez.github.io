@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
 
+* {
+  box-sizing: border-box;
+}
+
 /* Reset CSS (JANGAN DIHAPUS) */
 html,
 body,
@@ -18,16 +22,9 @@ div {
   padding: 0;
 }
 
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 /* Header */
+
 body {
-  margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -36,7 +33,8 @@ a {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
