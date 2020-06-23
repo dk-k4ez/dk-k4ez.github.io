@@ -247,6 +247,11 @@ div.camping-content {
   height: auto;
 }
 
+.camping-list h2 {
+  color: goldenrod;
+  padding: 10px;
+}
+
 /* Footer */
 
 footer img {
