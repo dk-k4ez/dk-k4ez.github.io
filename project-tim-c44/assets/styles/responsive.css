@@ -1,41 +1,57 @@
 /* Untuk Tablet */
 /* Edit-edy */
 @media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .top-wrapper p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
     /* bagian konten camping & hiking */
-        .text-top h1 {
-            font-size: 25px;
-            padding-bottom: 8px;
-        }
-        .text-top p {
-            font-size: 15px;
-            padding-bottom: 30px;
-        }
-        .pic a {
-            width: 100%;
-        }
-        .pic a p {
-            font-size: 17px;
-            letter-spacing: 1px;
-            padding-bottom: 20px;
-        }
-        .pic 1 {
-            width: 290px;
-        }
-        .pic-2 {
-            width: 50%;
-            height: 50%;
-            margin-top: 30px;
-            margin-right: 20px;
-            float: none;
-        }
-        .text-bottom h1 {
-            padding-bottom: 15px;
-            padding-top: 100px;
-            text-align: center;
-        }
-        .text-bottom p {
-            font-size: 14px;
-        }
+    .text-top h1 {
+        font-size: 25px;
+        padding-bottom: 8px;
+    }
+
+    .text-top p {
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+
+    .camping-content a {
+        width: 100%;
+    }
+
+    .camping-content a p {
+        font-size: 17px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .featured-image {
+        width: 290px;
+    }
+
+    .banner {
+        width: 50%;
+        height: 50%;
+        margin-top: 30px;
+        margin-right: 20px;
+        float: none;
+    }
+
+    .text-bottom h1 {
+        padding-bottom: 15px;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .text-bottom p {
+        font-size: 14px;
+    }
 
 
 
@@ -43,67 +59,59 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     footer {
         text-align: center;
     }
+
     /* bagian konten camping & hiking */
-        .text-top h1 {
-            font-size: 20px;
-            padding-bottom: 5px;
-        }
-        .text-top p {
-            font-size: 10px;
-            padding-bottom: 19px;
-        }
-        .pic a {
-            width: 100%;
-        }
-        .pic a p {
-            font-size: 8px;
-            letter-spacing: 0.5px;
-            padding-bottom: 20px;
-        }
-        .pic 1 {
-            width: 250px;
-        }
-        .pic-2 {
-            width: 50%;
-            height: 50%;
-            margin-top: 20px;
-            margin-right: 15px;
-            float: none;
-        }
-        .text-bottom h1 {
-            padding-bottom: 10px;
-            text-align: center;
-        }
-        .text-bottom p {
-            font-size: 7px;
-        }
-    
-    
-    
-    /* Master */
-@media all and (max-width: 1000px ) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
+    .text-top h1 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
 
-  .top-wrapper p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
+    .text-top p {
+        font-size: 10px;
+        padding-bottom: 19px;
+    }
 
-/* Untuk Smartphone */
-@media all and (max-width: 670px ) {
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
+    .camping-content a {
+        width: 100%;
+    }
 
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-  }
+    .camping-content a p {
+        font-size: 8px;
+        letter-spacing: 0.5px;
+        padding-bottom: 20px;
+    }
+
+    .featured-image {
+        width: 250px;
+    }
+
+    .banner {
+        width: 50%;
+        height: 50%;
+        margin-top: 20px;
+        margin-right: 15px;
+        float: none;
+    }
+
+    .text-bottom h1 {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .text-bottom p {
+        font-size: 7px;
+    }
 }
