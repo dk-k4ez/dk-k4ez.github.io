@@ -28,6 +28,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
