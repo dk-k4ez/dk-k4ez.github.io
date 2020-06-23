@@ -206,14 +206,16 @@ main {
   overflow-x: auto;
 }
 
-.text-top h1 {
+.text-top h1,
+.bike-header h1 {
   text-align: center;
   color: goldenrod;
   padding-bottom: 10px;
   font-size: 30px;
 }
 
-.text-top p {
+.text-top p,
+.bike-header p {
   text-align: center;
   color: goldenrod;
   font-size: 20px;
