@@ -142,27 +142,11 @@ footer img {
   width: 125px;
 }
 
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
 footer {
   text-align: center;
   font-weight: lighter;
   font-size: 1.15em;
   padding: 20px;
-}
-
-footer {
-  background-color: rgba(52, 73, 94, 1);
-}
-
-footer {
   color: rgb(245, 245, 245);
+  background-color: rgba(52, 73, 94, 1);
 }
