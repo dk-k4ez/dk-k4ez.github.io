@@ -1,0 +1,20 @@
+h1 {
+  color: #ff0000;
+  /* Gantikan font-size ke 40px */
+  font-family: serif;
+  font-size: 40px;
+  
+  /* Gantikan font-family ke serif */
+  
+
+}
+
+p {
+  color: #0000ff;
+  /* Gantikan font-size ke 20px */
+  font-size: 20px;
+  
+  /* Gantikan font-family ke "Lucida Grande" */
+  font-family: "Lucida Grande";
+  
+}
